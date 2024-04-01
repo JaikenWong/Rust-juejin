@@ -6,6 +6,7 @@ fn main() {
     sentence.push_str(", ");
     sentence.push_str(planet);
     println!("final sentence: {}", sentence);
+    println!("final sentence: {sentence}");
     println!("{:?}", &sentence[0..5]);
     //println!("{:?}", &sentence[12..13]);
 }
