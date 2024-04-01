@@ -1,3 +1,4 @@
+
 fn main() {
     let greeting: &str = "Greetings";
     let planet: &str = "🪐";
@@ -9,4 +10,26 @@ fn main() {
     println!("final sentence: {sentence}");
     println!("{:?}", &sentence[0..5]);
     //println!("{:?}", &sentence[12..13]);
+    let x = 10;
+    let size = if x < 20 { "small" } else { "large" };
+    println!("number size: {}", size);
+
+    let n = 4;
+    println!("{n}! = {}", factorial(n));
+    fizzbuzz(3);
+
 }
+
+
+fn factorial(n: u32) -> u32 {
+    let mut product = 1;
+    for i in 1..=n {
+        product *= dbg!(i);
+    }
+    product
+}
+
+fn fizzbuzz(n: u32) -> u32 {
+    todo!()
+}
+
