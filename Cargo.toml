@@ -15,3 +15,7 @@ path = "src/main.rs"
 [[bin]]
 name = "type"
 path = "src/type.rs"
+
+[[bin]]
+name = "fib"
+path = "src/fib.rs"
