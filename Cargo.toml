@@ -19,3 +19,7 @@ path = "src/type.rs"
 [[bin]]
 name = "fib"
 path = "src/fib.rs"
+
+[[bin]]
+name = "transpose"
+path = "src/transpose.rs"
