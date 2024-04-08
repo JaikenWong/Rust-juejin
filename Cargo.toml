@@ -23,3 +23,8 @@ path = "src/fib.rs"
 [[bin]]
 name = "transpose"
 path = "src/transpose.rs"
+
+
+[[bin]]
+name = "sparsearray"
+path = "src/sparsearray.rs"
