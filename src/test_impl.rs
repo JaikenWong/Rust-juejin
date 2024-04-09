@@ -10,8 +10,8 @@ impl Rectangle {
 }
 
 fn main() {
-    let mut v = vec![1, 2, 3];
-    let mut nums: Vec<i32> = vec![1, 2, 5, 9, 5, 9, 5, 5, 5];
+    let v = vec![1, 2, 3];
+    let nums: Vec<i32> = vec![1, 2, 5, 9, 5, 9, 5, 5, 5];
     print!("&v        ");
     for x in &v {
         print!("{} ", x);
@@ -24,12 +24,6 @@ fn main() {
     for num in nums {
         print!("{} ", num);
     }
-
-
-    for num in nums {
-        print!("{} ", num);
-    }
-
 
     println!(" ");
     print!("len  get  ");
