@@ -28,3 +28,14 @@ path = "src/transpose.rs"
 [[bin]]
 name = "sparsearray"
 path = "src/sparsearray.rs"
+
+
+[[bin]]
+name = "boyermoore"
+path = "src/boyermoore.rs"
+
+
+
+[[bin]]
+name = "test_impl"
+path = "src/test_impl.rs"
