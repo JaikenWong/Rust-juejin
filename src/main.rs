@@ -1,4 +1,3 @@
-
 fn main() {
     let greeting: &str = "Greetings";
     let planet: &str = "🪐";
@@ -17,9 +16,7 @@ fn main() {
     let n = 4;
     println!("{n}! = {}", factorial(n));
     fizzbuzz(3);
-
 }
-
 
 fn factorial(n: u32) -> u32 {
     let mut product = 1;
@@ -39,4 +36,16 @@ fn reference() {
     let x_coord = &mut point.0;
     *x_coord = 20;
     println!("point: {point:?}");
+
+    let str: &str = "Greetings";
+    let result = is_palindrome(str);
+    println!("is {}", result);
+}
+
+// 一个判断回文字符串的方法
+fn is_palindrome(s: &str) -> bool {
+    let mut chars = s.chars().collect::<Vec<_>>();
+
+    chars.reverse();
+    return s == chars.iter().collect::<String>();
 }
